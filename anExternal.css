@@ -1,0 +1,25 @@
+body {
+
+background-color: blue;
+}
+
+div1 {
+
+    float: right;
+    height: 100px;
+    width: 500px;
+    background-color: tomato;
+
+}
+
+div2 {
+
+    float: left;
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 40px;
+
+
+
+}
