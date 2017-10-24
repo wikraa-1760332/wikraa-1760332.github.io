@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Job Application For Two and a Half Scoops</title>
+	<title>Job Application</title>
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -16,12 +16,7 @@
 
 	<fieldset class="form-horizontal" >
 		<legend>Account</legend>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Email</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="text" name="email">
-			</div>
-		</div>
+		
 		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Password</label>
@@ -29,28 +24,17 @@
 				<input class="form-control" type="password" name="password">
 			</div>
 		</div>
-	</div>
-	<div class="form-group">
-		<label class="col-sm-3 control-label">Social Security</label>
-		<div class="col-sm-9">
-			<input class="form-control" type="password" name="password">
-		</div>
-	</div>
-		<div class="form-group">
-			<label class="col-sm-3 control-label">Least Favorite Ice Cream Flavor</label>
-			<div class="col-sm-9">
-				<input class="form-control" type="password" name="password">
-			</div>
-		</div>
-		</div>
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Repeat password</label>
 			<div class="col-sm-9">
 				<input class="form-control" type="password" name="repeat_password">
 			</div>
 		</div>
-		
-		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Test</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="Test">
+			</div>
 		
 	</fieldset>
 
@@ -141,10 +125,6 @@
 				<input class="form-control" type="text" name="zip">
 			</div>
 		</div>
-		<div class="form-group">
-			<label class="control-label">What is your favorite type of milk?</label>
-			<textarea class="form-control" name="deserve" rows="6"></textarea>
-		</div>
 	</fieldset>
 
 	<p>&nbsp;</p>
@@ -152,7 +132,7 @@
 	<fieldset>
 		<legend>Availability</legend>
 		<div class="form-group row">
-			<label class="col-sm-12 control-label">Have you worked in a professional setting?</label>
+			<label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
 			<div class="col-sm-offset-1 col-sm-11">
 				<div class="radio">
 					<label>
@@ -164,41 +144,6 @@
 						<input type="radio" name="legal" value="no">No
 					</label>
 				</div>
-			</div>
-		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label"> Rate your scooping ability on a scale of 1-5?</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="radio">
-					<label>
-						<input type="radio" name="legal" value="1">1
-					</label>
-				</div>
-				<div class="col-sm-offset-1 col-sm-11">
-					<div class="radio">
-						<label>
-							<input type="radio" name="legal" value="2">2
-						</label>
-					</div>
-					<div class="col-sm-offset-1 col-sm-11">
-						<div class="radio">
-							<label>
-								<input type="radio" name="legal" value="3">3
-							</label>
-						</div>
-						<div class="col-sm-offset-1 col-sm-11">
-							<div class="radio">
-								<label>
-									<input type="radio" name="legal" value="4">4
-								</label>
-							</div>
-							<div class="col-sm-offset-1 col-sm-11">
-								<div class="radio">
-									<label>
-										<input type="radio" name="legal" value="5">5
-									</label>
-								</div>
-
 			</div>
 		</div>
 		<div class="form-group row">
@@ -226,35 +171,6 @@
 					<label>
 						<input type="checkbox" name="position_tp" value="temporary">
 						Temporary
-					</label>
-				</div>
-			</div>
-		</div>
-		<div class="form-group row">
-			<label class="col-sm-12 control-label">Are you a Master in These Flavors? (check all that apply)</label>
-			<div class="col-sm-offset-1 col-sm-11">
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_pt" value="Rocky Road">
-						Rocky Road
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_ft" value=CookieDough>
-						CookieDough
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_sl" value="CookiesnCream">
-						CookiesNCream
-					</label>
-				</div>
-				<div class="checkbox">
-					<label>
-						<input type="checkbox" name="position_tp" value="None">
-						None
 					</label>
 				</div>
 			</div>
@@ -303,41 +219,21 @@
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="form-group">
-			<label class="col-sm-3 control-label">Areas of Interest</label>
-			<div class="col-sm-9">
-				<select class="form-control" name="Area">
-					<option value="" selected="true">Choose a Technology</option>
-					<option value="SY">Security</option>
-					<option value="HW">Hardware</option>
-					<option value="SW">Software</option>
-					<option value="IT">IT</option>
-					<option value="ML">Machine Learning</option>
-					<option value="AI">AI</option>
-					<option value="TELE">Telecoms</option>
-					<option value="BD">Broadcasting</option>
-					<option value="MS">MicroSystems</option>
-					<option value="EV">Environmental</option>
-					<option value="MD">Medical</option>
-				</select>
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="control-label">What would be the best thing about working at Two and a Half Scoops?</label>
+			<label class="control-label">Why do you deserve this job?</label>
 			<textarea class="form-control" name="deserve" rows="6"></textarea>
 		</div>
 		<div class="form-group">
-			<label class="control-label">How would you make  two and half scoops a better place?</label>
+			<label class="control-label">Describe a recent project</label>
 			<textarea class="form-control" name="project" rows="6"></textarea>
 		</div>
+		
 	</fieldset>
 
 	<p>&nbsp;</p>
 
-	<input class="btn btn-primary btn-lg" type="submit" value="New Submit Button ;)">
+	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
 
 	<p>&nbsp;</p>
-
-
 
 </form>
 </div><!-- close .container -->
